@@ -1,0 +1,33 @@
+form ul li {
+    margin:10px 20px;
+
+}
+form ul li:last-child {
+    text-align:center;
+    margin:20px 0 25px 0;
+	}
+input {
+    padding:10px 10px;
+    border:1px solid #d5d9da;
+    border-radius:5px;
+    box-shadow: 0 0 5px #e8e9eb inset;
+    width:328px; /* 400 (#container) - 40 (li margins) -  10 (span paddings) - 20 (input paddings) - 2 (input borders) */
+    font-size:1em;
+    outline:0; /* remove webkit focus styles */
+}
+input:focus {
+    border:1px solid #b9d4e9;
+    border-top-color:#b6d5ea;
+    border-bottom-color:#b8d4ea;
+    box-shadow:0 0 5px #b9d4e9;
+	}
+label {
+    color:#FFFF;
+}
+#container span {
+    background:#f6f6f6;
+    padding:3px 5px;
+    display:block;
+    border-radius:5px;
+    margin-top:5px;
+}

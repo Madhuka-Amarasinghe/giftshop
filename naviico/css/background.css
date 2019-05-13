@@ -1,0 +1,34 @@
+body {
+    background:#edf1f4 url(bg.jpg);
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans serif;
+    font-size:16px;
+    color:#444;
+}
+ul, li {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+#container {
+    width:400px;
+    padding:0px;
+    background:#fefefe;
+    margin:0 auto;
+    border:1px solid #c4cddb;
+    border-top-color:#d3dbde;
+    border-bottom-color:#bfc9dc;
+    box-shadow:0 1px 1px #ccc;
+    border-radius:5px;
+    position:relative;
+}
+h1 {
+    margin:0;
+    padding:10px 0;
+    font-size:24px;
+    text-align:center;
+    background:#eff4f7;
+    border-bottom:1px solid #dde0e7;
+    box-shadow:0 -1px 0 #fff inset;
+    border-radius:5px 5px 0 0; /* otherwise we get some uncut corners with container div */
+    text-shadow:1px 1px 0 #fff;
+}
