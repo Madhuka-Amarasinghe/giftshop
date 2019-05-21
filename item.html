@@ -296,7 +296,15 @@ padding-top: 70px;
   </style>
 
 
+<!-- add cart -->
 
+<!-- add cart -->
+
+<!-- <style>
+.mt {
+  margin-top: 20px;
+}
+</style> -->
 
 
 </head>
@@ -353,21 +361,33 @@ padding-top: 70px;
     <!-- <div class="col-md-3" style="background: red; height: 800px"> -->
     <div class="col-md-3">
       <ul class="list-unstyled" class="container">
-        <li>Home</li>
-        <li>Products
+        <!-- <li>Home</li> -->
+        <li>Flower
           <ul>
-            <li>Gadgets</li>
-            <li>Accessories</li>
+            <li>Best Sellers</li>
+            <li>Birthday</li>
+            <li>Love</li>
+            <li>Anniversary</li>
           </ul>
         </li>
-        <li>About Us</li>
-        <li>Contact</li>
+        <li>Cake</li>
+        <li>Fresh Fruits</li>
+        <li>Chocolates</li>
+        <li>Soft Toys</li>
+        <li>Specially for Him</li>
+        <li>Specially for Her</li>
+        <li>Jewellery</li>
+        <li>Perfumes</li>
+        <li>Gift Packs</li>
+        <li>Gift Vouchers</li>
+        <li>More Gift</li>
       </ul>
     </div>
 
     <div class="col-md-5" style="background: blue;">
       <!-- <div class="container"> -->
-      <h1>Thumbnail Slider / Carousel</h1>
+      <h1>Sony Xperia Z5 Premium 501so Gold</h1>
+      <!-- <h2>Decription</h2> -->
       <div id="myCarousel" class="carousel slide" data-interval="false">
 
         <div class="carousel-inner" role="listbox">
@@ -405,7 +425,55 @@ padding-top: 70px;
         </div>
       </div>
     </div>
-    <div class="col-md-4"></div>
+    <div class="col-md-4">
+
+
+      <h1>Pure Love</h1>
+      <br>
+      <p>Description Here</p>
+
+          <div class="col-md-6">
+            <h2>Color</h2>
+            <div class="card">
+              <div class="card-body text-center d-flex justify-content-center align-items-center flex-column">
+                <p>Color Picker</p>
+                <button class="btn btn-primary btn-sm" id="color-picker-2">Open Picker</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+              <h2>Size</h2>
+              <select>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                  <option value="xlarge">Xtra Large</option>
+                </select>
+          </div><br><br>
+
+
+
+          <div class="col-md-12" style="margin-top: 20px;">
+              <button type="button" class="btn btn-success">Cutomize</button>
+          </div>
+
+
+          <div class="col-md-12">
+            <h2>In Stock</h2>
+            <form action="#">
+              Quantity : <input type="number" name="quantity" min="1" max="5"><br><br>
+              Price Per One : <span>$40000</span><br><br>
+              <a href="#" class="btn btn-info btn-lg">
+                  <span class="glyphicon glyphicon-shopping-cart"></span> Buy Now
+                </a><br><br>
+              <a href="#" class="btn btn-info btn-lg">
+                  <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart
+                </a>
+              <!-- <input type="submit"> -->
+            </form>
+          </div>
+
+    </div>
   </div>
   <!-- rating -->
   <div class="row">
@@ -668,7 +736,30 @@ padding-top: 70px;
         &nbsp
       </p>
 
-
+      <script>
+        const pickr2 = new Pickr({
+    el: '#color-picker-2',
+    useAsButton: true,
+    default: "123456",
+  
+    components: {
+      preview: true,
+      opacity: true,
+      hue: true,
+  
+      interaction: {
+        hex: true,
+        rgba: true,
+        hsla: true,
+        hsva: true,
+        cmyk: true,
+        input: true,
+        clear: true,
+        save: true
+      }
+    }
+  });
+        </script>
       <script>
         $(document).ready(function () {
 
@@ -702,3 +793,5 @@ padding-top: 70px;
           });
         });
       </script>
+      
+      
